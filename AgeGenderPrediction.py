@@ -126,7 +126,7 @@ history = model.fit(x_train,[y_train[:,0],y_train[:,1]],validation_data=(x_valid
 # YUZ TANIMA - KAMERA 
 face_clsfr = cv2.CascadeClassifier("C:\Anaconda3\Lib\site-packages\cv2\data\haarcascade_frontalface_default.xml")
 
-labels_dict={0:'Female', 1:'Male'}
+
 color_dict={0:(0,0,255)}
 
 rect_size = 9
